@@ -1,8 +1,8 @@
 import streamlit as st
-from llama-index import VectorStoreIndex, ServiceContext, Document
-from llama-index.llms import OpenAI
+from llama_index import VectorStoreIndex, ServiceContext, Document
+from llama_index.llms import OpenAI
 import openai
-from llama-index import SimpleDirectoryReader
+from llama_index import SimpleDirectoryReader
 
 st.set_page_config(page_title="Chat with the SJSU Library's Kingbot, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
