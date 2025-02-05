@@ -1,0 +1,363 @@
+Export artwork
+Choose File > Export > Export As.
+
+Select a location for the file, and enter a filename.
+
+Select a file format Save As Type (Windows) or Format (macOS).
+
+ 
+If your document contains multiple artboards, specify how to export the artboards.
+
+To export each artboard as a separate file, select Use Artboards in the Export dialog box. 
+To export all the artboards as a single file, select All.
+To export only a range of artboards, specify the Range.
+Select Export.
+
+Background export
+When you export assets from a file using  File > Export > Exports for Screens, Illustrator runs the export process in the background by default. It helps you save a lot of time and improves productivity. Choose Preferences > File Handling & Clipboard > Export in Background to turn off background export. As you can continue to work on the file even when the file is being exported, do remember to save or export your latest changes on the file.
+
+Check progress
+To check the progress of the background export process, you can click the progress icon on the menu bar. 
+
+If multiple files are getting exported in the background simultaneously, the individual progress for all of them is displayed. Once the export is complete, you'll receive a message.
+
+If you want to stop the export process for any file, select Cancel in the progress bar.
+
+Note:
+Currently, only the raster file formats, .png and .jpg, can be exported in the background. The .svg and .pdf file formats follow the standard export process.
+If you select a combination of raster file formats and .svg/.pdf file formats, the export process will not run in the background.
+File formats for exporting artwork
+AutoCAD Drawing and AutoCAD Interchange File (DWG and DXF)
+
+AutoCAD Drawing is the standard file format for saving vector graphics created in AutoCAD. 
+AutoCAD Interchange File is a drawing interchange format for exporting AutoCAD drawings to or importing drawings from other applications. For more information, see AutoCAD export options. 
+BMP
+
+A standard Windows image format. For more information, see BMP export options. 
+
+Enhanced Metafile (EMF)
+
+Widely used by Windows applications as an interchange format for exporting vector graphics data. Illustrator may rasterize some vector data when exporting artwork to EMF format.
+
+JPEG (Joint Photographic Experts Group)
+
+JPEG is a standard format for displaying images over the web. Commonly used to save photographs. It retains all color information in an image but compresses file size by selectively discarding data. For more information, see JPEG export options.
+
+Macintosh PICT
+
+Used with macOS graphics and page-layout applications to transfer images between applications. PICT is especially effective at compressing images with large areas of solid color.
+
+Photoshop (PSD)
+
+The standard Photoshop format. If your artwork contains data that cannot be exported to Photoshop format, Illustrator preserves the appearance of the artwork by merging the layers in the document or by rasterizing the artwork. For more information, see Photoshop export options.
+
+PNG (Portable Network Graphics)
+
+Used for lossless compression and for display of images on the web. PNG preserves transparency in grayscale and RGB images. For more information, see PNG export options. 
+
+Targa (TGA)
+
+Designed for use on systems that use the Truevision® video board. For more information, see Targa export options.
+
+Text Format (TXT)
+
+Used to export text in an illustration to a text file. For more information, see Export text.
+
+SVG (Scalable Vector Graphics)
+
+The SVG format is entirely XML-based and offers many advantages to developers and users alike. For more information, see SVG export options.
+
+TIFF (Tagged-Image File Format)
+
+Used to exchange files between applications and computer platforms. TIFF is a flexible bitmap image format supported by most paint, image-editing, and page-layout applications. Most desktop scanners can produce TIFF files. For more information, see TIFF export options.
+
+Windows Metafile (WMF)
+
+An intermediate exchange format for 16‑bit Windows applications. WMF format is supported by almost all Windows drawing and layout programs. However, it has limited vector graphics support, and wherever possible, EMF format should be used in place of WMF format.
+
+WebP
+
+WebP is a modern image format that provides superior lossless and lossy compression for images on the web. It maintains high image quality and reduces file sizes, which results in faster page loading times and better user experiences across the internet. For more information, see WebP export options.
+
+
+PDF
+
+Portable Document Format (PDF) is a universal file format that preserves the fonts, images, and layout of source documents created on a wide range of applications and platforms. Adobe PDF is the standard for the secure, reliable distribution and exchange of electronic documents and forms around the world. For more information, see Create Adobe PDF files.
+
+Note:
+You can export multiple artboards only to the following formats: SWF, JPEG, PSD, PNG, and TIFF.
+You can also save an image as a PNG or JPEG file using the Save For Web & Devices command.
+AutoCAD export options
+When you export artwork to either DXF or DWG format, you can set the following options:
+
+Auto CAD DXF/DWG Export Options dialog box
+Auto CAD DXF/DWG export options
+
+AutoCAD Version
+
+Specifies the version of AutoCAD that supports the exported file.
+
+Scale
+
+Enter values for Scale Units to specify how Illustrator interprets length data when writing the AutoCAD file.
+
+Scale Lineweights
+
+Scales the lineweights, along with the rest of the drawing, in the exported file.
+
+Number of Colors
+
+Determines the color depth of the exported file
+
+Raster File Format
+
+Specifies whether images and objects that are rasterized during export are saved in PNG or JPEG format. Only PNG supports transparency; if you need to preserve appearance to the maximum extent possible, choose PNG.
+
+Preserve Appearance
+
+Select if you need the appearance to be maintained and don’t need to make edits to the exported file. Selecting this option may lead to a significant loss of editability. For example, text may be outlined and effects will be rasterized. You can select this option or Maximum Editability, but not both.
+
+Maximum Editability
+
+Select if the need to edit the file in AutoCAD outweighs the need for maintaining appearance. This option may lead to significant loss of appearance, especially if you’ve applied style effects. You can select this option or Preserve Appearance, but not both.
+
+Export Selected Art Only
+
+Exports only the artwork in the file that is selected at the time of export. If no artwork is selected, a blank file is exported.
+
+Alter Paths For Appearance
+
+Changes the paths in AutoCAD to maintain the original appearance, if necessary. For example, if during the export, a path overlaps other objects and changes their appearance, this option alters the path to maintain the objects’ appearance.
+
+Outline Text
+
+Converts all text to paths before export to maintain appearance. Illustrator and AutoCAD may interpret text attributes differently. Select this option to maintain maximum visual fidelity (at the cost of editability). If you need to edit the text in AutoCAD, don’t select this option.
+
+Always Export Group as Block Reference
+
+Select this if you need to export a group of objects available in an artwork as a block in DWG/DXF file format.
+
+Note: By default, white strokes or fills in Illustrator artwork are exported to the AutoCAD formats as black strokes or fills, and black strokes or fills in Illustrator are exported to the AutoCAD format as white.
+BMP and TARGA export options
+When you export artwork to BMP or Targa format, you can set the following options:
+
+Color Model
+
+Determines the color model of the exported file.
+
+Resolution
+
+Determines the resolution of the exported file.
+
+Anti-aliasing
+
+Removes jagged edges in the artwork by supersampling it. Deselecting this option helps maintain the hard edges of line art when it is rasterized.
+
+Rasterize Options while exporting BMP or Targa file
+Rasterize options while exporting BMP or Targa file
+
+JPEG export options
+When you export artwork to JPEG format, you can set the following options:
+
+jpeg export options dialog box
+JPEG export options
+
+Color Model
+
+Determines the color model of the JPEG file.
+
+Quality
+
+Determines the quality and size of the JPEG file.
+
+Compression Method
+
+Select Baseline (Standard) to use a format recognized by most web browsers.
+Select Baseline Optimized for optimized color and a slightly smaller file size.
+Select Progressive to display a series of increasingly detailed scans (you specify how many) as the image downloads.
+Baseline Optimized and Progressive JPEG images are not supported by all web browsers.
+
+Resolution
+
+Determines the resolution of the JPEG file.
+
+Anti-aliasing
+
+Removes jagged edges in the artwork by supersampling it. Deselecting this option helps maintain the hard edges of line art when it is rasterized.
+
+Imagemap
+
+Generates code for image maps. Select Client-side (.html) or Server-side (.map) to determine the type of file generated.
+
+Embed ICC Profiles
+
+Saves ICC profiles in the JPEG file.
+
+Note: Artifacts, such as wave-like patterns or blocky areas of banding, are added to a file each time you save the file as a JPEG. Always save JPEG files from the original image, not from a previously saved JPEG.
+Photoshop export options
+When you export artwork to PSD format, you can set the following options:
+
+Photoshop Export Options dialog box
+Photoshop export options
+
+Color Model
+
+Determines the color model of the exported file. Exporting a CMYK document as RGB, or vice versa may cause unexpected changes in the appearance of transparent areas, especially those that include blending modes. If you change the color model, you must export the artwork as a Flat Image (the Write Layers option isn’t available).
+
+Resolution
+
+Determines the resolution of the exported file.
+
+Flat Image
+
+Merges all layers and exports the Illustrator artwork as a rasterized image. Choosing this option preserves the visual appearance of the artwork.
+
+Write Layers
+
+Exports groups, compound shapes, nested layers, and slices as separate, editable Photoshop layers. Nested layers that are more than five levels deep are merged into a single Photoshop layer. Select Maximum Editability to export transparent objects (that is, objects with an opacity mask, a constant opacity less than 100%, or a blending mode other than Normal) as live, editable Photoshop layers.
+
+Preserve Text Editability
+
+Exports horizontal and vertical point type in layers (including nested layers up to five levels deep) to editable Photoshop type. Deselect this option to rasterize the text instead if it affects the appearance of the artwork.
+
+Maximum Editability
+
+Top-level layers become Photoshop layer sets. Transparent objects remain editable transparent objects. Also creates a Photoshop shape layer for each compound shape in a top‑level layer if doesn’t affect the appearance of the artwork. To write compound shapes with solid strokes, change the Join type to Round. Whether or not you select this option, all layers over 5 levels deep are merged into a single Photoshop layer.
+
+Anti-aliasing
+
+Removes jagged edges in the artwork by supersampling it. Deselecting this option helps maintain the hard edges of line art when it’s rasterized.
+
+Embed ICC Profiles
+
+Creates a color-managed document.
+
+PNG export options
+When you export artwork to PNG file, you can set the following options:
+
+Resolution
+
+Determines the resolution of the rasterized image. Higher resolution values result in better image quality but larger file sizes.
+
+Anti-aliasing
+
+Removes jagged edges in the artwork by supersampling it. Deselecting this option helps maintain the hard edges of line art when it is rasterized.
+
+Interlaced
+
+Displays low-resolution versions of the image as the file downloads in a browser.
+
+Background Color
+
+Specifies a color for filling transparency.
+
+Transparent to preserve transparency.
+White to fill transparency with white.
+Black to fill transparency with black.
+PNG Export Options dialog box
+PNG export options
+
+SVG export options
+When you export artwork to SVG format, you can set the following options:
+
+SVG export options dialog box
+SVG export options
+
+Styling
+
+Choose how visual styling information is stored in the SVG markup.
+
+Internal CSS: Uses a single `<style>` tag with CSS classes, sharing styling settings between objects that have the same styles. This may lead to smaller file sizes.
+Inline Style: Uses a single `style` attribute per SVG tag, containing all tag’s style properties combined in CSS syntax.
+Presentation Attributes: Uses separate XML attributes for each individual style property on each SVG tag. This format is required to use SVG assets with Android Studio.
+Font
+
+Choose how fonts are represented in the SVG file. Outlines preserve the path definition and are most compatible.
+
+Images
+
+Choose if you want images to be saved as embedded within the document or linked files external to the document.
+
+Object IDs
+
+Select how ID types (names) are assigned to objects in the SVG file. Choose between Layer Names, Minimal, or Unique. This option determines how duplicate names of objects are handled and how objects are named in the exported CSS.
+
+Decimal
+
+Choose how much information you want to preserve the precision of object locations. A higher value for Decimal will increase the precision of how objects are laid out, and this increases the visual fidelity of the rendered SVG. However, increasing the value of Decimal also increases the file size of the resulting exported SVG.
+
+Minify
+
+Optimizes the file size of the SVG by removing empty groups and blank spaces. Choosing this option also reduces the readability of the resulting SVG code.
+
+Responsive
+
+Checking this option ensures that the SVG-generated scales are within a browser. No absolute size values are written.
+
+Show Code
+
+Opens the exported content in your default text editor.
+
+Show in browser  
+
+Displays the image in your default web browser.
+
+TIFF export options
+When you export artwork to TIFF file, you can set the following options:
+
+Color Model
+
+Determines the color model of the exported file.
+
+Resolution
+
+Determines the resolution of the rasterized image.
+
+Anti-aliasing
+
+Removes jagged edges in the artwork by supersampling it. Deselecting this option helps maintain the hard edges of line art when it is rasterized.
+
+TIFF Options dialog box
+TIFF export options
+
+LZW Compression
+
+A lossless compression method that does not discard detail from the image. Select this option to produce a smaller file.
+
+Embed ICC Profiles
+
+Creates a color-managed document.
+
+WebP export options
+When you export artwork to webp file, you can set the following options:
+
+WebP export options
+WebP export options
+
+Lossless
+
+Select this to preserve all image details. This may result in a larger file size.
+
+Lossy
+
+Select this to get a lower file size at the cost of loss of details in the image.
+
+Quality
+
+Use the Quality slider to decide the quality when using Lossy compression to specify trade-off between details and file size. Higher quality preserves greater details at the cost of larger file sizes.
+
+Resolution
+
+Determines the resolution of the rasterized image.
+
+Anti-aliasing
+
+Removes jagged edges in the artwork by supersampling it. Deselecting this option helps maintain the hard edges of line art when it is rasterized.
+
+Background Color
+
+Specifies a color for filling transparency.
+
+Embed ICC Profiles
+
+Creates a color-managed document.
