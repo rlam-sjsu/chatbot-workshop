@@ -1,0 +1,128 @@
+Adobe Illustrator Workshop
+Raymond Lam
+Adobe Trainer & Instructional Designer
+Dr. Martin Luther King, Jr. Library
++1 (408) 808-82087
+raymond.lam@sjsu.edu
+https://libguides.sjsu.edu/adobe-digital-cafe
+1
+Table of Contents
+Table of Contents.........................................................................................................................2
+Intro to Illustrator.........................................................................................................................3
+What we will be creating..........................................................................................................3
+Raster vs. Vector..........................................................................................................................3
+Raster......................................................................................................................................3
+Vector.......................................................................................................................................4
+Getting to know Illustrator..........................................................................................................5
+Left hand Toolbar.....................................................................................................................5
+Right hand properties panel.....................................................................................................6
+Move and zoom around your canvas.......................................................................................6
+Create different shapes...............................................................................................................6
+Create a few basic shapes......................................................................................................6
+Changing the shape of artwork with anchor points..................................................................7
+Using the Polygon tool to create a triangle..............................................................................9
+Move and rotate shapes and other objects on your canvas..................................................12
+Combining different shapes to make new ones.....................................................................13
+Pathfinder function.................................................................................................................13
+Rounding corners of a shape.................................................................................................14
+Adding text to your artwork......................................................................................................14
+Adding text.............................................................................................................................14
+Adding color to your artwork...................................................................................................16
+Adding color...........................................................................................................................16
+Creating a timeline with the artwork made above..................................................................17
+Grouping objects....................................................................................................................17
+Arranging overlapping objects...............................................................................................19
+Exporting artwork......................................................................................................................21
+Saving artwork with transparent backgrounds.......................................................................21
+Further exploration....................................................................................................................22
+2
+Intro to Illustrator What we will be creating
+In this workshop, we will be creating a timeline with a transparent background for use in other applications like Google Slides. In the process of doing so, we will cover how to create shapes, combine shapes, add text, and color to artwork in Illustrator.
+Raster vs. Vector Raster
+1. Raster images are digital images made up of tiny colored squares called pixels.
+Image credit: Wikipedia
+2. Each pixel represents a single color and when put together, they create the overall image.
+Image credits: Wikipedia
+3. The quality of the image is determined by the number of pixels per inch, with higher numbers resulting in clearer, more detailed images. 3
+Image credit: Adobe Stock
+4. However, if you try to increase the size of a raster image too much, it can become blurry and lose quality. Vector
+1. Vector images are digital images that are based on mathematical equations, which means they can be resized without losing quality or becoming blurry.
+Image credit: Wikipedia
+2. Individual circles, squares, and triangles are drawn based on mathematical equations. This means you can edit and redraw each part of the image without ruining the rest of the image.
+4
+Getting to know Illustrator Left hand Toolbar
+1. The left hand toolbar in Illustrator has most of the tools you will need to create and edit elements on your canvas.
+2. Hold down left click on a tool marked on the corner to reveal nested tools.
+5
+Right hand properties panel
+1. Make changes to the properties of each element on your canvas, like shapes, text, images from the properties panel found on the right hand side of Illustrator.
+Move and zoom around your canvas
+1. Zoom in and out of your canvas by using the zoom field found at the bottom of Illustrator.
+2. Additionally, you can use the Zoom tool [ Z ] and click where you want to zoom in and Alt + click or Command + click to zoom out.
+3. Hold down middle click to use the Hand tool to pan around your canvas. Additionally, you can access the Hand tool [ H ], which is nested under the Zoom tool.
+Create different shapes Create a few basic shapes
+1. Find different shape tools by holding down click on the Rectangle tool to reveal different shape tools.
+6
+2. Select the Rectangle tool, then hold down click and drag across the area you want to create a rectangle.
+3. Create a perfect square by holding down Shift click and dragging across the area you want to create a square.
+Changing the shape of artwork with anchor points.
+1. Change the shape of your rectangle manipulating the anchor points of your rectangle. You can do so by using the Direct Selection tool [ A ], found directly below the Selection tool. 7
+2. The rectangle’s anchor points will change from white to blue.
+3. Hold down left click on one anchor point with the Direct Selection tool and drag that anchor point across the canvas to create a new shape.
+8
+Using the Polygon tool to create a triangle
+1. Select the Polygon tool nested under the Rectangle tool. Holding down the left click on the Rectangle tool to reveal different shape tools.
+2. Create a polygon by holding down Shift + click and dragging across the area you want to create a polygon that sits at 0 degrees rotation..
+9
+3. Change the number of sides the polygon has by selecting the polygon with the Selection tool to reveal the Properties panel on the right hand side.
+4. Click More options under the Transform section of the Properties panel to reveal the more options popup menu.
+10
+5. Change the polygon side count to 3 and press enter or click on the canvas.
+11
+6. The created triangle.
+Move and rotate shapes and other objects on your canvas
+1. Use the Select tool [ V ] and select the object you want to move.
+2. Hold down left click and drag the shape around the canvas to reposition the shape.
+3. Rotate the shape by holding down Shift + click and drag your mouse downwards so your triangle has rotated 270 degrees.
+12
+Combining different shapes to make new ones Pathfinder function
+1. Illustrator can combine different shapes in a single shape using the Pathfinder function. For example, you can combine a rectangle and a triangle to create an arrow.
+2. Start by creating a rectangle.
+3. Create a separate triangle using the polygon tool and center align the triangle to the rectangle. This action will prompt a magenta Intersect notification.
+4. Select both shapes, then select Click to Unite found within the Pathfinder section of the left-side Properties panel.
+13
+5. Both the rectangle and triangle shapes have been united into a single arrow. Try making different shapes on your own.
+Rounding corners of a shape
+1. Round the corners of a shape by clicking on a shape with the Direct Selection tool [ A ] and pulling the small circles towards the center of your shape.
+Adding text to your artwork Adding text
+1. Use the Type tool [ T ] found in the left-side toolbar and hold click + drag diagonally to create a box under the arrow.
+14
+2. Familiarize yourself with the different properties you can change from the right-side properties panel, such as; justification, color, size, etc.
+3. Select the first sentence of your paragraph and resize the text to 20pt and change the color of your text to blue.
+4. Resize the text frame by selecting the frame with the Selection tool [ V ] and resize by holding down left click on the handles and dragging towards, or away from the opposing corner - then release left click.
+15
+Adding color to your artwork Adding color
+1. Add color to your shapes by selecting the shape with the Selection tool [ V ] and changing the Fill option found within the Properties panel.
+2. Change the outline of your shape by changing the Stroke color and width. Select [None] to have a transparent outline.
+16
+Creating a timeline with the artwork made above Grouping objects
+1. Group objects together to easily move them around the canvas as one single group. Select all objects to be grouped together and press [ Command / Control + G ]. Or select [Group] under Quick Actions in the Properties panel. 17
+2. Resize groups by using the Selection tool [ V ] and resize using the handles found on each corner. Hold down Shift while resizing to keep the objects original proportions.
+3. Create copies of the group by using the Selection tool [ V ] to select the group and [ Command / Control + C ] to make a copy. Then [ Command / Control + V ] to Paste a copy of the previous selection.
+18
+4. Make changes to nested objects inside each group by double clicking on the nested object to open it. You can stop editing inside a group by using the Selection tool [ V ] and double clicking on an empty area in your canvas.
+Arranging overlapping objects
+5. Similar to arranging overlapping objects in Google Slides. You can move objects from the front to back by selecting an Object or Group with the Selection tool [ V ] and right click to reveal the Arrange menu.
+19
+6. Select both groups and resize them equally, then align them by using the magenta snap function guidelines.
+7. Create more copies of each group and align them using the snap function guidelines. The guides also help space objects and groups out evenly.
+8. Create more copies of the arrow and text group and individually color each one to complete the timeline.
+20
+Exporting artwork Saving artwork with transparent backgrounds
+1. To export your artwork as a transparent PNG file for use in other applications like Google Slides, select all pieces of artwork to be exported with the Selection tool [ V ] and go to File > Export > Export As.
+2. Select PNG as the export format and Export. 21
+3. Select the export resolution. Generally Medium or 150 dpi is very good for web and desktop screens. Select High 300 dpi for printed mediums, and OK to export.
+4. Exported artwork
+Further exploration
+1. Tutorials found on Adobe’s website are bit sized and easy to start.
+22
